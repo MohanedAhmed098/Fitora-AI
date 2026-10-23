@@ -1,0 +1,18 @@
+{
+  "name": "Fitora AI — Your Food, Your Workout, Your Progress",
+  "short_name": "Fitora AI",
+  "description": "Smart nutrition and fitness tracker with AI food scanner, workout planner, and bilingual Arabic/English coach",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#151B13",
+  "theme_color": "#4D6A34",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

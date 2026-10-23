@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="oliveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6E9447" />
+      <stop offset="50%" stop-color="#4D6A34" />
+      <stop offset="100%" stop-color="#2D3E1E" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#CA8A04" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#oliveGrad)" />
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="8" stroke-dasharray="16 12"/>
+  <!-- Leaf and Dumbbell symbol -->
+  <g transform="translate(256, 256)">
+    <!-- Dumbbell bar -->
+    <rect x="-110" y="-12" width="220" height="24" rx="12" fill="#FFFFFF" />
+    <!-- Weight plates Left -->
+    <rect x="-135" y="-55" width="25" height="110" rx="10" fill="#E2E8F0" />
+    <rect x="-155" y="-40" width="16" height="80" rx="8" fill="#CBD5E1" />
+    <!-- Weight plates Right -->
+    <rect x="110" y="-55" width="25" height="110" rx="10" fill="#E2E8F0" />
+    <rect x="139" y="-40" width="16" height="80" rx="8" fill="#CBD5E1" />
+    <!-- Organic Nutrition Sprout in Center -->
+    <path d="M0,0 C-30,-50 -60,-80 0,-130 C60,-80 30,-50 0,0 Z" fill="#85A947" stroke="#FFFFFF" stroke-width="6"/>
+    <path d="M0,0 C-10,-35 -30,-60 0,-105" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <!-- AI Sparkle -->
+    <polygon points="50,-110 58,-95 73,-87 58,-79 50,-64 42,-79 27,-87 42,-95" fill="url(#goldGrad)" />
+  </g>
+</svg>

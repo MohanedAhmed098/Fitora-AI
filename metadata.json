@@ -1,0 +1,6 @@
+{
+  "name": "Fitora AI",
+  "description": "Your Food, Your Workout, Your Progress — All in One Place. Smart nutrition and fitness tracker with bilingual Arabic/English support, AI food scanner, live workout mode, meal planner, and AI coaching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
